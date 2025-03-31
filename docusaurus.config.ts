@@ -5,12 +5,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-    title: 'Tuba Makes',
+    title: 'Tuba Makes Help',
     tagline: 'Digital Dreams, Made Real.',
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
-    url: 'https://tubamakes.com',
+    url: 'https://help.tubamakes.com',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
@@ -64,7 +64,7 @@ const config: Config = {
         // Replace with your project's social card
         image: 'img/docusaurus-social-card.jpg',
         navbar: {
-            title: 'Tuba Makes',
+            title: 'Tuba Makes Help',
             logo: {
                 alt: 'TubaMakes Logo',
                 src: 'img/tubamakesprofilepic.jpg',
