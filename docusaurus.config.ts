@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-    title: 'TubaMakes',
+    title: 'Tuba Makes',
     tagline: 'Digital Dreams, Made Real.',
     favicon: 'img/favicon.ico',
 
@@ -64,7 +64,7 @@ const config: Config = {
         // Replace with your project's social card
         image: 'img/docusaurus-social-card.jpg',
         navbar: {
-            title: 'TubaMakes',
+            title: 'Tuba Makes',
             logo: {
                 alt: 'TubaMakes Logo',
                 src: 'img/tubamakesprofilepic.jpg',
@@ -77,13 +77,8 @@ const config: Config = {
                     label: 'Docs',
                 },
                 {
-                    href: 'https://l.tubaguy.com/3OBpa',
-                    label: 'YouTube',
-                    position: 'right',
-                },
-                {
-                    href: 'https://tubamakes.etsy.com',
-                    label: 'Store',
+                    href: 'https://l.tubaguy.com/etsy',
+                    label: 'Etsy Store',
                     position: 'right',
                 },
             ],
@@ -131,8 +126,22 @@ const config: Config = {
             //         ],
             //     },
             // ],
-            links: [],
-            copyright: `Copyright © ${new Date().getFullYear()} TubaMakes`,
+            links: [
+                {
+                    title: 'Socials',
+                    items: [
+                        {
+                            label: 'Instagram',
+                            href: 'https://l.tubaguy.com/tminsta',
+                        },
+                        {
+                            label: 'YouTube',
+                            href: 'https://l.tubaguy.com/3OBpa',
+                        }
+                    ]
+                }
+            ],
+            copyright: `Copyright © ${new Date().getFullYear()} Tuba Makes`,
         },
         prism: {
             theme: prismThemes.github,
