@@ -34,13 +34,13 @@ jobs:
               uses: actions/setup-node@v4
               with:
                   node-version: 22
-                  cache: pnpm
+                  cache: npm
 
             - name: Install deps
-              run: pnpm install --frozen-lockfile
+              run: npm ci
 
             - name: Build docusaurus website
-              run: pnpm build
+              run: npm build
 
             # Set up BuildKit Docker container builder to be able to build
             # multi-platform images and export cache
